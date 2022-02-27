@@ -1,10 +1,66 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+
+.author {
+  text-align: end;
+  font-style: italic;
+  margin: 20px 0 6px;
+}
+
+.container {
+  max-width: 576px;
+  margin: 0 auto;
+}
+
+.button-change {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+button {
+  padding: 8px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  border: 0;
+  outline: 0;
+  box-shadow: 2px 2px 4px grey;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+}
+
+button i {
+  color: #ffffff;
+
+}
+
+.card {
+  background: #fff;
+  box-shadow: 2px 2px 8px #000;
+  padding: 15px;
+  margin: 0 auto;
+  min-width: 310px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,6 +88,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

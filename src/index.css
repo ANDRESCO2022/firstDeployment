@@ -5,6 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+}
+.active {
+  background-color: rgb(252, 248, 13)
+}
+
+.inactive {
+  background-color: azure
 }
 
 code {
